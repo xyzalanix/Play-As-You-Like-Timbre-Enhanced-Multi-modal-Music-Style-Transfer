@@ -128,7 +128,7 @@ def audio2npys(input_file, config):
 '''
 locate the input directory & read the files
 '''
-inpath = './raw_audios/raw_audio_'
+inpath = '/content/'
 instrument = 'guitar'
 prefix = '_c2h256w302' # naming follows the settings in config
 
