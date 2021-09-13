@@ -44,7 +44,7 @@ print(config)
 
 ###
 def cal_num_channels(config):
-    n_ch = 1
+    n_ch = 3
     n_res = 1
     win_lens = [config['n_fft']]
     if config['is_multi']:
