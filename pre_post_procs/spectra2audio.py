@@ -24,7 +24,7 @@ D_phase = None # without phase information, the util will do phase estimation
 #gen_dir = '/content/Play-As-You-Like-Timbre-Enhanced-Multi-modal-Music-Style-Transfer/test'
 #ver_id = 'example'
 
-spectra_dir = '/content/Play-As-You-Like-Timbre-Enhanced-Multi-modal-Music-Style-Transfer/test/example_00001500/a2b/'
+spectra_dir = '/content/multimodal-audio-styletransfer/test/example_00001500/a2b/'
 print('spectra_dir = ', spectra_dir)
 
 source_wav = '/content/otto/' + 'sonata-introduction-otto.wav'
