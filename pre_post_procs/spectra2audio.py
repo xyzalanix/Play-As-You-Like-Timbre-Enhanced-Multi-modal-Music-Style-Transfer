@@ -1,3 +1,4 @@
+#@title # nb: This is what the successful spectra2audio.py file looks like
 import matplotlib
 matplotlib.use('Agg') # because librosa.display includes matplotlib
 import matplotlib.pyplot as plt
@@ -20,13 +21,13 @@ num_pieces = 5#None # output first k pieces of spectra, each last 3 seconds
 D_phase = None # without phase information, the util will do phase estimation
 
 ### directory & file names
-gen_dir = './generated_features'
-ver_id = 'gen_piano2guitar'
+#gen_dir = '/content/Play-As-You-Like-Timbre-Enhanced-Multi-modal-Music-Style-Transfer/test'
+#ver_id = 'example'
 
-spectra_dir = gen_dir + '/' + ver_id + '/'
+spectra_dir = '/content/Play-As-You-Like-Timbre-Enhanced-Multi-modal-Music-Style-Transfer/test/example_00001500/a2b/'
 print('spectra_dir = ', spectra_dir)
 
-source_wav = './raw_audios/raw_audio_piano/' + 'QingTianJayChou.wav'
+source_wav = '/content/otto/' + 'sonata-introduction-otto.wav'
 print(source_wav)
 is_overwrite = True # reconstructing costs a lots of time, only run it if necessary
 
