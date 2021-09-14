@@ -27,11 +27,11 @@ ver_id = 'example'
 spectra_dir = '/content/multimodal-audio-styletransfer/test/example_00001500/a2b/'
 print('spectra_dir = ', spectra_dir)
 
-source_wav = '/content/otto/' + 'sonata-introduction-otto.wav'
+source_wav = '/content/purrp/' + 'purrp.wav.wav'
 print(source_wav)
 is_overwrite = True # reconstructing costs a lots of time, only run it if necessary
 
-config_name = gen_dir + '/' + ver_id + '_config.yaml'
+config_name = gen_dir + '/' + 'config.yaml'
 print("config_name = {}".format(config_name))
 config = get_config(config_name)
 outdir = 'generated_audios' + '/' + ver_id + '/'
